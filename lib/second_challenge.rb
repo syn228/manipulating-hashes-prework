@@ -7,8 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-groceries.each do |k, v|
-  puts v
+groceries.each do |type, items|
+  types.each do |items|
+  puts items
+  end
 end
   
 
