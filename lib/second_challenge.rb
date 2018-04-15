@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
 groceries.each do |type, items|
-  types.each do |items|
+  type.each do |items|
   puts items
   end
 end
