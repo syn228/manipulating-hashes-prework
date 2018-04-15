@@ -7,7 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
+unmerged = groceries.values
+merged = unmerged.flatten
+  merged
 
 end
